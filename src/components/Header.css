@@ -1,0 +1,84 @@
+.header_top {
+  background-color: #131921;
+  display: flex;
+  position: sticky;
+  top: 0px;
+  align-items: center;
+  z-index: 100;
+}
+.header_logo {
+  object-fit: contain;
+  width: 100px;
+  margin: 0 20px;
+  margin-top: 18px;
+}
+.header_searchIcon {
+  margin-left: -31px;
+  background-color: #cd9042;
+  padding: 5px;
+  height: 22px !important;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.header_search {
+  display: flex;
+  flex-grow: 1;
+  border-radius: 10px;
+}
+.header_searchBar {
+  height: 12px;
+  padding: 10px;
+  border: 1px;
+  width: 100%;
+  outline: none;
+  border-radius: 5px;
+}
+.header_nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+.header_link {
+  text-decoration: none;
+  color: white;
+}
+.header_options {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.header_option1 {
+  font-size: 10px;
+}
+.header_option2 {
+  font-size: 13px;
+  font-weight: 800;
+}
+.headerOptions_basket {
+  display: flex;
+}
+.header_basketCount {
+  margin-left: 5px;
+  margin-right: 10px;
+}
+.header_bottom {
+  background-color: #232b40;
+  padding: 8px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.headerBottom_link {
+  display: flex;
+  align-items: center;
+}
+.headerBottom_Links_spans {
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.headerBottom_Links_span1 {
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 2px;
+}
